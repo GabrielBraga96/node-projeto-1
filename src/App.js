@@ -1,6 +1,8 @@
 import './App.css';
 import HelloWorld from './components/HelloWorld'
 import SayMyName from './components/SayMyName'
+import Pessoa from './components/Pessoa';
+import MinhaFoto from './components/imagem/foto-minha.webp';
 
 function App() {
     const name="Gabriel"
@@ -19,6 +21,12 @@ function App() {
         <HelloWorld />
         <SayMyName nome="Gabriel" />
         <SayMyName nome={nome}/>
+        <Pessoa 
+        nome="Gabriel"
+        idade="30"
+        profissao="programador"
+        MinhaFoto={MinhaFoto}
+        />
       </div>
     )
 }
