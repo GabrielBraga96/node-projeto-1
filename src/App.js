@@ -3,6 +3,7 @@ import HelloWorld from './components/HelloWorld'
 import SayMyName from './components/SayMyName'
 import Pessoa from './components/Pessoa';
 import MinhaFoto from './components/imagem/foto-minha.webp';
+import Frase from './components/frase'
 
 function App() {
     const name="Gabriel"
@@ -16,6 +17,10 @@ function App() {
     return (
       <div className="App">
         <h2>Alterando o JSX</h2>
+        <Frase/>
+        <Frase/>
+        <Frase/>
+
         <p>olá,{newName}</p>
         <p>Soma: {sum(1, 2)}</p>
         <HelloWorld />
