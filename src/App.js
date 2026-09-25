@@ -4,6 +4,7 @@ import SayMyName from './components/SayMyName'
 import Pessoa from './components/Pessoa';
 import MinhaFoto from './components/imagem/foto-minha.webp';
 import Frase from './components/frase'
+import List from './components/List'
 
 function App() {
     const name="Gabriel"
@@ -32,6 +33,7 @@ function App() {
         profissao="programador"
         MinhaFoto={MinhaFoto}
         />
+        <List />
       </div>
     )
 }
